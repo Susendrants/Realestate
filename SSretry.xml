@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.realestate.GenericUtils.ListenerImplClass"></listener>
+		
+	</listeners>
+  <test thread-count="1" parallel="tests" name="Test">
+	  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="com.hra.owner.G_apartmentRoomRegTest"/>
+       <class name="com.hra.owner.G_DetailsUpdateTest"/>
+       <class name="com.hra.owner.G_HouseRegisterTest"/>
+    </classes>
+   </test>
+</suite> <!-- Suite -->

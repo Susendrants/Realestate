@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hra.owner.G_DetailsUpdateTest">
+        <methods>
+          <include name="conf_BC"/>
+          <include name="conf_BS"/>
+          <include name="conf_AC"/>
+          <include name="conf_AS"/>
+          <include name="conf_AM"/>
+          <include name="DetailsUpdateTest"/>
+          <include name="conf_BM"/>
+        </methods>
+      </class> <!-- com.hra.owner.G_DetailsUpdateTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

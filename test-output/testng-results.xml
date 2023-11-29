@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[HouseRegisterTestain---Testscript Execution starts here---]]>
+    </line>
+    <line>
+      <![CDATA[DetailsUpdateTest---Testscript Execution starts here---]]>
+    </line>
+    <line>
+      <![CDATA[apartmentRoomRegTest---Testscript Execution starts here---]]>
+    </line>
+    <line>
+      <![CDATA[apartmentRoomRegTestFri Nov 24 09:56:49 IST 2023---Testscript execution failed--]]>
+    </line>
+    <line>
+      <![CDATA[HouseRegisterTestain--Testscript executed successfully--]]>
+    </line>
+    <line>
+      <![CDATA[DetailsUpdateTest--Testscript executed successfully--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-24T09:56:38 IST" name="Suite" finished-at="2023-11-24T09:56:54 IST" duration-ms="16716">
+    <groups>
+      <group name="integration">
+        <method signature="G_HouseRegisterTest.HouseRegisterTestain()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" name="HouseRegisterTestain" class="com.hra.owner.G_HouseRegisterTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="G_apartmentRoomRegTest.apartmentRoomRegTest()[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" name="apartmentRoomRegTest" class="com.hra.owner.G_apartmentRoomRegTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-11-24T09:56:38 IST" name="Test1" finished-at="2023-11-24T09:56:50 IST" duration-ms="12625">
+      <class name="com.hra.owner.G_apartmentRoomRegTest">
+        <test-method is-config="true" signature="conf_BC(java.lang.String)[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" started-at="2023-11-24T09:56:38 IST" name="conf_BC" finished-at="2023-11-24T09:56:43 IST" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BC -->
+        <test-method is-config="true" signature="conf_BM()[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" started-at="2023-11-24T09:56:43 IST" name="conf_BM" finished-at="2023-11-24T09:56:46 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BM -->
+        <test-method signature="apartmentRoomRegTest()[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" started-at="2023-11-24T09:56:46 IST" name="apartmentRoomRegTest" finished-at="2023-11-24T09:56:49 IST" duration-ms="2412" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [125] but found [125]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [125] but found [125]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1581)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2197)
+at org.testng.Assert.assertNotEquals(Assert.java:2219)
+at com.ObjectRepo.OwnerHomePage.validateCount(OwnerHomePage.java:84)
+at com.hra.owner.G_apartmentRoomRegTest.apartmentRoomRegTest(G_apartmentRoomRegTest.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[apartmentRoomRegTest---Testscript Execution starts here---]]>
+            </line>
+            <line>
+              <![CDATA[apartmentRoomRegTestFri Nov 24 09:56:49 IST 2023---Testscript execution failed--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apartmentRoomRegTest -->
+        <test-method is-config="true" signature="conf_AM()[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" started-at="2023-11-24T09:56:49 IST" name="conf_AM" finished-at="2023-11-24T09:56:50 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AM -->
+        <test-method is-config="true" signature="conf_AC()[pri:0, instance:com.hra.owner.G_apartmentRoomRegTest@557caf28]" started-at="2023-11-24T09:56:50 IST" name="conf_AC" finished-at="2023-11-24T09:56:50 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AC -->
+      </class> <!-- com.hra.owner.G_apartmentRoomRegTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-11-24T09:56:38 IST" name="Test3" finished-at="2023-11-24T09:56:53 IST" duration-ms="14817">
+      <class name="com.hra.owner.G_HouseRegisterTest">
+        <test-method is-config="true" signature="conf_BS()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:37 IST" name="conf_BS" finished-at="2023-11-24T09:56:38 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BS -->
+        <test-method is-config="true" signature="conf_BC(java.lang.String)[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:38 IST" name="conf_BC" finished-at="2023-11-24T09:56:43 IST" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BC -->
+        <test-method is-config="true" signature="conf_BM()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:43 IST" name="conf_BM" finished-at="2023-11-24T09:56:45 IST" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BM -->
+        <test-method signature="HouseRegisterTestain()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:45 IST" name="HouseRegisterTestain" finished-at="2023-11-24T09:56:52 IST" duration-ms="6637" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HouseRegisterTestain---Testscript Execution starts here---]]>
+            </line>
+            <line>
+              <![CDATA[HouseRegisterTestain--Testscript executed successfully--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HouseRegisterTestain -->
+        <test-method is-config="true" signature="conf_AM()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:52 IST" name="conf_AM" finished-at="2023-11-24T09:56:52 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AM -->
+        <test-method is-config="true" signature="conf_AC()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:52 IST" name="conf_AC" finished-at="2023-11-24T09:56:53 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AC -->
+        <test-method is-config="true" signature="conf_AS()[pri:0, instance:com.hra.owner.G_HouseRegisterTest@ba2f4ec]" started-at="2023-11-24T09:56:54 IST" name="conf_AS" finished-at="2023-11-24T09:56:55 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AS -->
+      </class> <!-- com.hra.owner.G_HouseRegisterTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-11-24T09:56:38 IST" name="Test2" finished-at="2023-11-24T09:56:54 IST" duration-ms="16716">
+      <class name="com.hra.owner.G_DetailsUpdateTest">
+        <test-method is-config="true" signature="conf_BC(java.lang.String)[pri:0, instance:com.hra.owner.G_DetailsUpdateTest@3d285d7e]" started-at="2023-11-24T09:56:38 IST" name="conf_BC" finished-at="2023-11-24T09:56:43 IST" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BC -->
+        <test-method is-config="true" signature="conf_BM()[pri:0, instance:com.hra.owner.G_DetailsUpdateTest@3d285d7e]" started-at="2023-11-24T09:56:43 IST" name="conf_BM" finished-at="2023-11-24T09:56:45 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_BM -->
+        <test-method signature="DetailsUpdateTest()[pri:0, instance:com.hra.owner.G_DetailsUpdateTest@3d285d7e]" started-at="2023-11-24T09:56:45 IST" name="DetailsUpdateTest" finished-at="2023-11-24T09:56:54 IST" duration-ms="8627" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DetailsUpdateTest---Testscript Execution starts here---]]>
+            </line>
+            <line>
+              <![CDATA[DetailsUpdateTest--Testscript executed successfully--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DetailsUpdateTest -->
+        <test-method is-config="true" signature="conf_AM()[pri:0, instance:com.hra.owner.G_DetailsUpdateTest@3d285d7e]" started-at="2023-11-24T09:56:54 IST" name="conf_AM" finished-at="2023-11-24T09:56:54 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AM -->
+        <test-method is-config="true" signature="conf_AC()[pri:0, instance:com.hra.owner.G_DetailsUpdateTest@3d285d7e]" started-at="2023-11-24T09:56:54 IST" name="conf_AC" finished-at="2023-11-24T09:56:54 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conf_AC -->
+      </class> <!-- com.hra.owner.G_DetailsUpdateTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
