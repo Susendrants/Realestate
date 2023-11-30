@@ -60,6 +60,7 @@ public class BaseClass {
 	@BeforeMethod(alwaysRun = true)
 	public void conf_BM() throws Throwable
 	{
+		System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///");
 	String URL =	fLib.readDataFromPropertyFile("url");
 	String USERNAME = fLib.readDataFromPropertyFile("username");
 	String PASSWORD = fLib.readDataFromPropertyFile("password");
