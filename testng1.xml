@@ -5,7 +5,7 @@
 		<listener class-name="com.realestate.GenericUtils.ListenerImplClass"></listener>
 	</listeners>
   <test thread-count="3" parallel="tests" name="Test1">
-	  <parameter name="BROWSER" value="edge"></parameter>
+	  <parameter name="BROWSER" value="chrome"></parameter>
     <classes>
       <class name="com.hra.owner.G_apartmentRoomRegTest"/>
       </classes>

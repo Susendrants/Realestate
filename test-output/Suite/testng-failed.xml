@@ -5,7 +5,7 @@
     <listener class-name="com.realestate.GenericUtils.ListenerImplClass"/>
   </listeners>
   <test thread-count="3" parallel="tests" name="Test1(failed)">
-    <parameter name="BROWSER" value="edge"/>
+    <parameter name="BROWSER" value="chrome"/>
     <classes>
       <class name="com.hra.owner.G_apartmentRoomRegTest">
         <methods>
@@ -20,4 +20,20 @@
       </class> <!-- com.hra.owner.G_apartmentRoomRegTest -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.hra.owner.G_HouseRegisterTest">
+        <methods>
+          <include name="conf_BC"/>
+          <include name="conf_BS"/>
+          <include name="conf_AC"/>
+          <include name="conf_AS"/>
+          <include name="conf_AM"/>
+          <include name="HouseRegisterTestain"/>
+          <include name="conf_BM"/>
+        </methods>
+      </class> <!-- com.hra.owner.G_HouseRegisterTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
