@@ -41,6 +41,7 @@ public class BaseClass {
 		{
 			driver=new ChromeDriver();
 			System.out.println("--CHROME BROWSER LAUNCHED---");
+			Thread.sleep(15000);
 		}
 		else if(BROWSER.equalsIgnoreCase("edge"))
 		{
