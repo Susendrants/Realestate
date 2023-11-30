@@ -70,7 +70,7 @@
   </properties>
    <profiles>
 	  <profile>
-		  <id></id>
+		  <id>group</id>
 		  
 		  <build>
 			  <plugins>
