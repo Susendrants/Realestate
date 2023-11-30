@@ -32,11 +32,11 @@ public class BaseClass {
 		dLib.connectDB();
 		System.out.println("DB CONNECTED");
 	}
-	@Parameters("BROWSER")
+//	@Parameters("BROWSER")
 	@BeforeClass(alwaysRun = true)
-	public void conf_BC(String BROWSER) throws Throwable
+	public void conf_BC() throws Throwable
 	{
- //       String BROWSER = fLib.readDataFromPropertyFile("browser");
+        String BROWSER = fLib.readDataFromPropertyFile("browser");
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
